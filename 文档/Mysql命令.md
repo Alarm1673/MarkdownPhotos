@@ -41,4 +41,11 @@
 	select max(field1) as maxvalue from table1
 #####最小：
 	select min(field1) as minvalue from table1
+
+####创建表
+	CREATE TABLE `person` (
+	  `id` int(11) NOT NULL AUTO_INCREMENT,
+	  `name` varchar(100) NOT NULL,
+	  PRIMARY KEY (`id`)
+	) ENGINE=MyISAM AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 	
